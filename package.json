@@ -1,0 +1,24 @@
+{
+  "name": "splinter",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "babel-runtime": "^6.26.0",
+    "client-oauth2": "^4.1.0",
+    "crypto": "^1.0.1",
+    "exec": "^0.2.1",
+    "http-api-client": "^0.1.8",
+    "https": "^1.0.0",
+    "limiter": "^1.1.2",
+    "meteor-node-stubs": "^0.3.3",
+    "moment": "^2.21.0",
+    "prop-types": "^15.6.1",
+    "sc2-sdk": "^1.0.2",
+    "steem": "^0.6.7",
+    "typeface-roboto": "0.0.35",
+    "utf-8-validate": "^3.0.4"
+  }
+}
