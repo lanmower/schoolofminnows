@@ -1,11 +1,8 @@
 import steem from 'steem';
-import './collections.js';
 import './api.js';
 import './reward.js';
 import steemconnect from './steemconnect.js';
 import crypto from 'crypto';
-import './chess.js';
-import './boost.js';
 global.steemconnect = steemconnect;
 let available = [];
 const promotion = Meteor.bindEnvironment(() => {
